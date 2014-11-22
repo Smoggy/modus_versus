@@ -1,0 +1,24 @@
+header {
+  background-color: #A65980;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+  header .logo {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 29px; }
+    header .logo span {
+      font-weight: 400;
+      font-size: 23px; }
+  header nav {
+    display: inline-block; }
+    header nav .nav {
+      position: relative; }
+      header nav .nav li {
+        position: relative;
+        display: inline-block; }
+        header nav .nav li a {
+          text-decoration: none;
+          color: white; }
+        header nav .nav li ul {
+          position: absolute;
+          background-color: #20A8DA; }
