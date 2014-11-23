@@ -1,9 +1,17 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
+a[class*="fontawesome-"]:before,
+span[class*="fontawesome-"]:before {
+	display: block;
+	font-family: 'FontAwesome', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
 
 header {
 	background-color: #A65980;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
+	height: 100px;
 
 	.logo {
 		text-decoration: none;
@@ -17,6 +25,10 @@ header {
 	}
 
 	nav {
+		padding: 2% 0;
+		position: relative;
+		float: right;
+		margin-right: 22%;
 
 		display: inline-block;
 
@@ -26,6 +38,7 @@ header {
 			li {
 				position: relative;
 				display: inline-block;
+				margin-right: 20px;
 
 				a{
 					text-decoration: none;
@@ -35,6 +48,31 @@ header {
 				ul {
 					position: absolute;
 					background-color: #20A8DA;
+					border-radius: 4px;
+					margin-top: 20px;
+
+					&:after {
+					content: "";
+					position: absolute;
+					left: 10px;
+					border-width: 0px 6px 8px;
+					border-style: solid;
+					border-color: #20A8DA transparent;
+					display: block;
+					width: 0;
+					top: -8px;
+					}
+
+					li {
+						width: 150px;
+						height: 25px;
+						text-align: center;
+						margin-top: 5px;
+						margin-right: 5px;
+						margin-left: 5px;
+						margin-bottom: 2.5px;
+						background-color: black
+					}
 				}
 			}
 
