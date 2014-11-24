@@ -8,15 +8,17 @@ span[class*="fontawesome-"]:before {
 }
 
 header {
-	background-color: #A65980;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	height: 100px;
+	background: #A65980 url(../images/Path.png) center bottom repeat-x;
 
 	.logo {
 		text-decoration: none;
 		font-weight: 700;
-		font-size: 29px;
+		font-size: 28px;
+		line-height: 3.4;
+		margin-left: 10%;
+		display: inline;
 
 		span {
 			font-weight: 400;
@@ -25,20 +27,28 @@ header {
 	}
 
 	nav {
-		padding: 2% 0;
+		padding: 1.5% 0;
 		position: relative;
 		float: right;
-		margin-right: 22%;
+		margin-right: 15%;
 
 		display: inline-block;
 
 		.nav {
 			position:  relative;
+			display: inline;
 
-			li {
+			& > li {
 				position: relative;
 				display: inline-block;
-				margin-right: 20px;
+				margin-right: 14px;
+				height: 40px;
+				line-height: 40px;
+				border-radius: 5px;
+				width: 117px;
+				text-align: center;
+				font-size: 15px;
+				cursor: pointer;
 
 				a{
 					text-decoration: none;
@@ -49,7 +59,9 @@ header {
 					position: absolute;
 					background-color: #20A8DA;
 					border-radius: 4px;
-					margin-top: 20px;
+					margin-top: 8px;
+					opacity: 0;
+					transition:all ease-in-out 0.4s;
 
 					&:after {
 					content: "";
@@ -64,14 +76,48 @@ header {
 					}
 
 					li {
-						width: 150px;
-						height: 25px;
+						width: 218px;
+						height: 30px;
 						text-align: center;
 						margin-top: 5px;
 						margin-right: 5px;
 						margin-left: 5px;
 						margin-bottom: 2.5px;
-						background-color: black
+						background-color: #37B1DE;
+						line-height: 27px;
+						border-radius: 4px;
+						cursor: pointer;
+
+						a {
+							padding-left: 5px;
+						}
+
+						&:hover {
+							background-color: #A65980;
+						}
+
+						&:first-child {
+							margin-top: 7.5px;
+						}
+
+						&:last-child {
+							margin-bottom: 7.5px;
+						}
+					}
+				}
+
+				&:first-child {
+					background-color: #8B4A6B;
+					box-shadow: 0px 3px 0px #743E59;
+				}
+
+				&:hover {
+					background-color: #37B1DE;
+					box-shadow: 0px 3px 0px #20A8DA;
+
+					ul {
+						opacity: 1;
+						margin-top: 20px;
 					}
 				}
 			}
