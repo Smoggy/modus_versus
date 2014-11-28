@@ -449,7 +449,35 @@ header {
 
 .statistics_block {
 	height: 100px;
-	width: 100%;
+	width: 1170px;
+	margin: 0 auto;
 	padding-top: 400px;
 	background-color:  #f3f3f3;
+
+	.choose_us {
+		font-family: 'Open Sans', sans-serif;
+
+		h1 {
+			color:  #7f8c8c;
+			font-weight: 700;
+			font-size: 20px;
+		}
+
+		ul {
+			padding-top: 30px;
+
+			li {
+				color:  #777777;
+				padding-top: 10px;
+
+				i {
+					color: #A65980;
+					padding-right: 10px;
+					font-size: 14px;
+				}
+
+				
+			}
+		}
+	}
 }

@@ -320,8 +320,24 @@ header {
 
 .statistics_block {
   height: 100px;
-  width: 100%;
+  width: 1170px;
+  margin: 0 auto;
   padding-top: 400px;
   background-color: #f3f3f3; }
+  .statistics_block .choose_us {
+    font-family: 'Open Sans', sans-serif; }
+    .statistics_block .choose_us h1 {
+      color: #7f8c8c;
+      font-weight: 700;
+      font-size: 20px; }
+    .statistics_block .choose_us ul {
+      padding-top: 30px; }
+      .statistics_block .choose_us ul li {
+        color: #777777;
+        padding-top: 10px; }
+        .statistics_block .choose_us ul li i {
+          color: #A65980;
+          padding-right: 10px;
+          font-size: 14px; }
 
 /*# sourceMappingURL=styles.css.map */
