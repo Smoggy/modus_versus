@@ -322,10 +322,12 @@ header {
   height: 100px;
   width: 1170px;
   margin: 0 auto;
-  padding-top: 400px;
+  padding-top: 270px;
   background-color: #f3f3f3; }
   .statistics_block .choose_us {
-    font-family: 'Open Sans', sans-serif; }
+    font-family: 'Open Sans', sans-serif;
+    width: 290px;
+    display: inline-block; }
     .statistics_block .choose_us h1 {
       color: #7f8c8c;
       font-weight: 700;
@@ -334,10 +336,90 @@ header {
       padding-top: 30px; }
       .statistics_block .choose_us ul li {
         color: #777777;
-        padding-top: 10px; }
+        padding-top: 10px;
+        font-size: 15px; }
         .statistics_block .choose_us ul li i {
           color: #A65980;
           padding-right: 10px;
           font-size: 14px; }
+  .statistics_block .progress_block {
+    width: 580px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif; }
+    .statistics_block .progress_block p {
+      padding-bottom: 53px;
+      color: #777777;
+      width: 90%;
+      margin: 0 auto;
+      text-align: justify;
+      font-size: 15px;
+      line-height: 20px; }
+    .statistics_block .progress_block .progress {
+      display: inline-block;
+      display: inline-block;
+      padding-right: 14px; }
+      .statistics_block .progress_block .progress:last-child {
+        padding-right: 0; }
+      .statistics_block .progress_block .progress .meter {
+        background-color: gray;
+        width: 120px;
+        height: 58px;
+        position: relative;
+        border-radius: 120px 120px 0px 0px; }
+        .statistics_block .progress_block .progress .meter .inner {
+          background-color: #f3f3f3;
+          position: absolute;
+          bottom: 0px;
+          font-size: 30px;
+          width: 87px;
+          left: 17px;
+          height: 44px;
+          text-align: center;
+          border-radius: 87px 87px 0px 0px;
+          line-height: 2;
+          font-weight: 700;
+          color: #7f8c8c; }
+      .statistics_block .progress_block .progress h3 {
+        text-align: center;
+        color: #7f8c8c;
+        font-weight: 700;
+        padding-top: 19px; }
+  .statistics_block .quote_block {
+    width: 290px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif; }
+    .statistics_block .quote_block h1 {
+      color: #7f8c8c;
+      font-weight: 700;
+      font-size: 20px;
+      padding-bottom: 30px; }
+    .statistics_block .quote_block p {
+      background-color: #f8f8f8;
+      border-radius: 5px;
+      color: #777777;
+      font-style: italic;
+      padding: 10px 20px;
+      line-height: 20px;
+      position: relative;
+      font-size: 15px; }
+      .statistics_block .quote_block p:after {
+        content: "";
+        position: absolute;
+        left: 10px;
+        border-width: 36px 0px 0px 32px;
+        border-style: solid;
+        border-color: #f8f8f8 transparent;
+        display: block;
+        width: 0;
+        left: 15px; }
+    .statistics_block .quote_block h2 {
+      color: #777777;
+      font-size: 18px;
+      font-weight: 600;
+      padding-left: 55px;
+      padding-top: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
